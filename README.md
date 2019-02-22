@@ -2,7 +2,7 @@
 
 1. Run Visual Studio. Open solution using TFLClient.sln
 
-2. Build solution: BUILD -> Build Solution
+2. Build solution. Menu: BUILD -> Build Solution
 
 # How to run output
 
@@ -23,3 +23,14 @@
 4.2 Run RoadStatus.exe a33333
 
 4.3 Run RoadStatus.exe !"£$%^&**&^
+
+# How to run tests
+
+1. Run Visual Studio with TFLClient.sln
+
+2. Open. Menu: TEST -> Windows -> Test Explorer
+
+3. Run test. Menu: TEST -> Run -> All Tests
+
+4. All tests must be green on Test Explorer tool window.
+
