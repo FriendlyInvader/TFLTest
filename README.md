@@ -36,7 +36,7 @@
 
 # Some notes
 
-1. The major member in the solution is **IClient** intrface which contains single member 'ClientResponse GetRoadStatus(string road);'
+1. The major member in the solution is **IClient** intrface which contains single member _ClientResponse GetRoadStatus(string road);_
 
    **IClient** is implemented by **TFLClient**, **SafeClient** and **DelayClientMock** classes
    
