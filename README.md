@@ -36,7 +36,7 @@
 
 # Some notes
 
-1. The major member in the solution id IClient intraface which contains single member ClientResponse GetRoadStatus(string road);
+1. The major member in the solution is IClient intraface which contains single member ClientResponse GetRoadStatus(string road);
 
    IClient is implemented by TFLClient, SafeClient and DelayClientMock classes
    
