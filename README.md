@@ -28,7 +28,7 @@
 
 1. Run Visual Studio with TFLClient.sln
 
-2. Open. Menu: TEST -> Windows -> Test Explorer
+2. Open Test Explorer tool window. Menu: TEST -> Windows -> Test Explorer
 
 3. Run test. Menu: TEST -> Run -> All Tests
 
