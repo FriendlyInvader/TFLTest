@@ -37,9 +37,13 @@
 # Some notes
 
 1. The major member in the solution id IClient intraface which contains single member ClientResponse GetRoadStatus(string road);
+
    IClient is implemented by TFLClient, SafeClient and DelayClientMock classes
+   
        TFLClient is the main class to get road statuses from TFL API
+       
        SafeClient is the wrapper of IClient objects. This class responsible for reaction on possible networking timeout.
+       
        DelayClientMock is for the test purposes.
 
 2. RoadCorridors, RoadCorridor and ApiError classes are DTOs (Data Transfer Object) to extract data from JSON with the help of JsonHelper static class.
